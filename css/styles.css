@@ -39,6 +39,10 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
 }
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .container {
   width: 1158px;
   margin-left: auto;
@@ -128,6 +132,8 @@ body {
   padding-bottom: 16px;
   padding-left: 32px;
   flex-grow: 0;
+  display: block;
+  margin: auto;
 }
 .text-button {
   font-weight: 500;
@@ -137,6 +143,7 @@ body {
   letter-spacing: 0.04em;
   color: var(--white-color);
 }
+
 .hero {
   background: var(--dark-color);
 }
@@ -176,8 +183,31 @@ body {
   text-transform: capitalize;
   text-align: center;
   color: var(--dark-color);
+  margin-bottom: 72px;
+}
+.title-team {
 }
 /*==========/SECTION ABOUT ======*/
+
+/* TEAM*/
+.team {
+  background: #f4f4fd;
+}
+.list-team {
+  display: flex;
+  gap: 24px;
+}
+.emploees-cards {
+  flex-basis: calc((100%-72px) / 4);
+}
+.emploees-cards-foto {
+  padding-bottom: 32px;
+}
+.title-feature {
+  padding-bottom: 8px;
+}
+
+/* TEAM*/
 
 /*==============FOOTER============*/
 .text-footer {
@@ -237,4 +267,9 @@ body {
 .main-contact:hover,
 .main-contact:focus {
   color: var(--pressed-state-color);
+}
+.list-team-portfolio {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
