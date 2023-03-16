@@ -117,7 +117,10 @@ body {
 /* ==========/HEADER========= */
 
 /* ===========HERO=========== */
+
 .model-button {
+  min-width: 169px;
+  min-height: 56px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -126,12 +129,10 @@ body {
   background: var(--primary-brand-color);
   color: var(--white-color);
   border-radius: 4px;
-  border: 1px solid #000000;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
-  flex-grow: 0;
   display: block;
   margin: auto;
 }
@@ -146,6 +147,9 @@ body {
 
 .hero {
   background: var(--dark-color);
+  margin-top: 0px;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .main-title {
   font-weight: 700;
@@ -154,12 +158,14 @@ body {
   letter-spacing: 0.02em;
   color: var(--white-color);
   text-align: center;
+  margin-bottom: 48px;
 }
 /* ===========/HERO=========== */
 
 /* ===========FEATURE==========*/
 .items-list-feature {
   display: flex;
+  gap: 24px;
 }
 .title-feature {
   font-weight: 500;
@@ -187,11 +193,12 @@ body {
   color: var(--dark-color);
   margin-bottom: 72px;
 }
-/*==========/SECTION ABOUT ======*/
-
-/* TEAM*/
+/*===================/SECTION ABOUT =====================*/
+/*======================== TEAM=====================*/
 .team {
-  background: #f4f4fd;
+  background: var(--light-color);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .list-team {
   display: flex;
@@ -199,17 +206,18 @@ body {
 }
 .emploees-cards {
   flex-basis: calc((100%-72px) / 4);
+  background: var(--white-color);
 }
 .emploees-cards-foto {
   padding-bottom: 32px;
 }
-.title-feature {
+.title-feature-list {
   padding-bottom: 8px;
 }
 
-/* TEAM*/
+/* =======================TEAM=====================*/
 
-/*==============FOOTER============*/
+/*=======================FOOTER===================*/
 .text-footer {
   font-size: 16px;
   line-height: 1.5;
@@ -272,4 +280,12 @@ body {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+}
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.list-button {
+  display: flex;
+  margin-bottom: 72px;
 }
