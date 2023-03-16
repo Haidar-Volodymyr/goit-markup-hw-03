@@ -40,7 +40,6 @@ body {
   color: var(--text-color);
 }
 .section {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .container {
@@ -173,12 +172,18 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding-bottom: 8px;
+  text-align: center;
 }
 .sub-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  text-align: center;
+}
+.section-feature {
+  padding-top: 120px;
 }
 /* ===========/FEATURE==========*/
 
@@ -213,6 +218,7 @@ body {
 }
 .title-feature-list {
   padding-bottom: 8px;
+  text-align: center;
 }
 
 /* =======================TEAM=====================*/
