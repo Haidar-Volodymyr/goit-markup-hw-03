@@ -306,6 +306,7 @@ body {
 .list-team-portfolio {
   display: flex;
   gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 .section-portfolio {
