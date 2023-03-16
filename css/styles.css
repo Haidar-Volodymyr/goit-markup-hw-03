@@ -173,14 +173,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark-color);
   padding-bottom: 8px;
-  text-align: center;
 }
-.sub-text {
+.sub-text-feature {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  text-align: center;
 }
 .section-feature {
   padding-top: 120px;
@@ -220,7 +218,13 @@ body {
   padding-bottom: 8px;
   text-align: center;
 }
-
+.sub-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+  text-align: center;
+}
 /* =======================TEAM=====================*/
 
 /*=======================FOOTER===================*/
@@ -263,7 +267,7 @@ body {
   color: var(--primary-brand-color);
   background: var(--light-color);
   border: 1px solid var(--accent-color);
-  border: transparent;
+  padding: 12px 24px;
 }
 
 .progect-card-title {
@@ -311,6 +315,7 @@ body {
   display: flex;
   margin-bottom: 72px;
   gap: 24px;
+  justify-content: center;
 }
 .card-border {
   border: 1px solid var(--accent-color);
