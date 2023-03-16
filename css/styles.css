@@ -158,7 +158,9 @@ body {
 /* ===========/HERO=========== */
 
 /* ===========FEATURE==========*/
-
+.items-list-feature {
+  display: flex;
+}
 .title-feature {
   font-weight: 500;
   font-size: 20px;
@@ -184,8 +186,6 @@ body {
   text-align: center;
   color: var(--dark-color);
   margin-bottom: 72px;
-}
-.title-team {
 }
 /*==========/SECTION ABOUT ======*/
 
