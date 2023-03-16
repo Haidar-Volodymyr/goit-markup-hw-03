@@ -229,12 +229,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+  margin-top: 16px;
 }
 .footer {
   background: var(--dark-color);
 }
 .text-logo-footer {
   color: var(--light-color);
+}
+.footer-backdown {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.logo-page-footer {
+  font-family: var(--second-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-brand-color);
 }
 /*==============/FOOTER============*/
 
@@ -257,6 +272,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark-color);
+  padding-bottom: 8px;
 }
 .button-filter:hover,
 .button-filter:focus {
@@ -294,4 +310,12 @@ body {
 .list-button {
   display: flex;
   margin-bottom: 72px;
+  gap: 24px;
+}
+.card-border {
+  border: 1px solid var(--accent-color);
+  border-top: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
